@@ -1,0 +1,10 @@
+nav,
+footer {
+    height: 10vh;
+    background-color: lightgrey;
+}
+
+canvas {
+    background-color: cornflowerblue;
+    display: block;
+}
