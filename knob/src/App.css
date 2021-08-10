@@ -29,37 +29,17 @@ button {
     justify-content: center;
 }
 
-.sliderDiv {
+.sliderUnit {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* -webkit-appearance: slider-vertical; */
-    /* width: 5vw; */
     width: 5rem;
 }
 
-/* .slider { */
-/* position: absolute; */
-/* transform: rotate(270deg); */
-/* margin-top: 125%; */
-/* margin-bottom: 125%; */
-/* height: 25vh; */
-/* } */
-
-/* .slider {
-    display: inline-block;
-    width: 20px;
-    height: 150px;
-    padding: 0;
-}
-
-.slider input {
-    width: 150px;
-    height: 20px;
-    margin: 0;
-    transform-origin: 75px 75px;
-    transform: rotate(-90deg);
-} */
+/* rotate slider
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
+firefox: html tag (orient='vertical')
+chrome and safari: css (below) */
 
 input[type="range"] {
     writing-mode: bt-lr;

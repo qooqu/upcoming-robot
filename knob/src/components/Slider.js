@@ -8,11 +8,8 @@ const Slider = (props) => {
     } else str = "good";
 
     return (
-        <div className="sliderDiv">
+        <div className="sliderUnit">
             <input type="range" value={val} orient="vertical"></input>
-            {/* <div className="slider"> */}
-            {/* <input type="range" value={val} /> */}
-            {/* </div> */}
             <div>{val}</div>
             <div>{str}</div>
         </div>
