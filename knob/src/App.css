@@ -29,10 +29,17 @@ button {
     justify-content: center;
 }
 
-.slider {
+.sliderDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    -webkit-appearance: slider-vertical;
+    /* -webkit-appearance: slider-vertical; */
     width: 5vw;
+}
+
+.slider {
+    /* position: absolute; */
+    transform: rotate(270deg);
+    margin-top: 125%;
+    margin-bottom: 125%;
 }
