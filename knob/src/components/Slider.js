@@ -9,8 +9,10 @@ const Slider = (props) => {
 
     return (
         <div className="sliderDiv">
-            {/* <input type="range" value={val} orient="vertical"></input> */}
-            <input className="slider" type="range" value={val} />
+            <input type="range" value={val} orient="vertical"></input>
+            {/* <div className="slider"> */}
+            {/* <input type="range" value={val} /> */}
+            {/* </div> */}
             <div>{val}</div>
             <div>{str}</div>
         </div>
