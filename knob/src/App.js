@@ -20,15 +20,17 @@ function App() {
     ];
 
     return (
-        <div className="App">
+        <div id="container">
             <Knob
                 knobVal={knobVal}
                 knobTurnDown={knobTurnDown}
                 knobTurnUp={knobTurnUp}
             />
-            {sliderVals.map((val) => (
-                <Slider val={val} />
-            ))}
+            <div id="sliderContainer">
+                {sliderVals.map((val) => (
+                    <Slider val={val} />
+                ))}
+            </div>
         </div>
     );
 }

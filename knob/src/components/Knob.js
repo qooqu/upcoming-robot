@@ -4,12 +4,14 @@ const Knob = (props) => {
     const knobTurnUp = props.knobTurnUp;
 
     return (
-        <div>
-            <span>
+        <div id="knob">
+            <div>
                 <button onClick={knobTurnDown}> - </button>
-                {knobVal}
+            </div>
+            <div id="knobVal">{knobVal}</div>
+            <div>
                 <button onClick={knobTurnUp}> + </button>
-            </span>
+            </div>
         </div>
     );
 };
